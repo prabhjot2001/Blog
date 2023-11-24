@@ -1,0 +1,11 @@
+.content{
+display: flex;
+gap: 50px;
+}
+
+.title{
+    padding: 5px 20px;
+    color: white;
+    text-align: center;
+    background-color: cadetblue;
+}

@@ -1,0 +1,46 @@
+.container{
+  margin-bottom: 50px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.imageContainer{
+   height: 350px;
+   position: relative;
+    flex: 1;
+}
+
+.image{
+    object-fit: cover;
+}
+
+.textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.date{
+    color: gray;
+}
+.category{
+    color: rgb(255, 102, 0);
+    font-weight: 500;
+}
+.desc{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--soft-text-color);
+}
+.link{
+    border-bottom: 1px solid rgb(255, 102, 0);
+    width: max-content;
+    padding: 2px 0 ;
+}
+
+@media screen and (max-width: 1280px) {
+    .imageContainer{
+        display: none;
+    }
+}
